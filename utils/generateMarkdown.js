@@ -68,7 +68,7 @@ ${renderLicenseSection(data.license)}
 ${data.contribution}
 
 ## Tests
-${data.tests}
+${data.test}
 
 ## Questions
 [Here is the link to my GitHub Profile](https://github.com/${data.username})

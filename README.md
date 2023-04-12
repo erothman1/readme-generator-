@@ -10,8 +10,11 @@ Once, you've done that, type in the following command:
 ```bash
 node index.js
 ```
+Here is a video of me walking through the steps to use this application
+![Walk Through](./images/walkthrough.gif)
 
-INCLUDE WALK THROUGH VIDEO HERE
+Here is a screenshot of the README created 
+![README screenshot](./images/readmescreenshot.png)
 
 ## How to Contribute 
 For information on how to contribute or if you have any questions, email me at elva.rothman.developer@gmail.com
