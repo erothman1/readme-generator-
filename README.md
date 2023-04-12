@@ -1,36 +1,20 @@
-# feir ![Creative Commons](https://img.shields.io/badge/Creative%20Commons-Creative%20Commons%20Zero%20v1.0%20Universal-blueviolet)
+# readme-generator-
   
 ## Description 
-fjeiro
-
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-- [How to Contribute](#how-to-contribute)
-- [Tests](#tests)
-- [Questions](#questions)
-
-## Installation
-freio
+This project allows me to dynamically create a quality README file quickly ande efficiently by using a simple command-line application. Through my time working on this project, I learned how to use NodeJS and Node package managers. I also learned how to incorporate template literals, arrow functions, and const and let instead of var. Along with this, I utilized fs and inquire.
 
 ## Usage 
-jio
+To use this application, you must git clone this repository to your local computer. Navigate to the repository through the terminal. 
+Once, you've done that, type in the following command:
 
-## Credits
-i
+```bash
+node index.js
+```
 
-## License
-I utilized the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode) for this project.
+INCLUDE WALK THROUGH VIDEO HERE
 
 ## How to Contribute 
-hu
+For information on how to contribute or if you have any questions, email me at elva.rothman.developer@gmail.com
 
-## Tests
-undefined
 
-## Questions
-[Here is the link to my GitHub Profile](https://github.com/fir)
-If you have any questions, email me at ijo
 

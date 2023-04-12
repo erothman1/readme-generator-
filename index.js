@@ -55,7 +55,7 @@ inquirer.prompt([
         name: "email",
     }
 ]).then((response) =>
-    writeToFile("README.md", response)
+    writeToFile("READMESample.md", response)
 )
 
 
