@@ -1,33 +1,36 @@
-# fiew ![MIT](https://img.shields.io/badge/MIT-MIT%20License-ff69b4)
+# feir ![Creative Commons](https://img.shields.io/badge/Creative%20Commons-Creative%20Commons%20Zero%20v1.0%20Universal-blueviolet)
   
-  ## Description 
-  fir
+## Description 
+fjeiro
 
-  ## Table of Contents
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[Credits](#credits)
-  -[License](#license)
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [How to Contribute](#how-to-contribute)
+- [Tests](#tests)
+- [Questions](#questions)
 
-  ## Installation
-  fir
+## Installation
+freio
 
-  ## Usage 
-  fewp
+## Usage 
+jio
 
-  ## Credits
-  frwp
+## Credits
+i
 
-  ## License
-  I utilized the [MIT License](https://www.mit.edu/~amini/LICENSE.md) for this project.
+## License
+I utilized the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode) for this project.
 
-  ## How to Contribute 
-  fwp
+## How to Contribute 
+hu
 
-  ## Tests
-  undefined
+## Tests
+undefined
 
-  ## Questions
-  [Here is the link to my GitHub Profile](https://github.com/fpw)
-  If you have any questions, email me at fri
+## Questions
+[Here is the link to my GitHub Profile](https://github.com/fir)
+If you have any questions, email me at ijo
 
