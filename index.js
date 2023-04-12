@@ -2,6 +2,7 @@ const inquirer = require("inquirer")
 const fs = require("fs")
 const markdownFile = require("./utils/generateMarkdown")
 
+//Prompts user to answer questions 
 inquirer.prompt([
     {
         type: "input",
@@ -41,7 +42,7 @@ inquirer.prompt([
     {
         type: "list",
         message: "What license does your project have?",
-        choices: ["MIT License", "Creative Commons Zero v1.0 Universal", "GNU General Public License v3.0", "Apache License 2.0"],
+        choices: ["MIT License", "Creative Commons Zero v1.0 Universal", "GNU General Public License v3.0", "Apache License 2.0", "N/A"],
         name: "license",
     },
     {
@@ -58,7 +59,7 @@ inquirer.prompt([
     writeToFile("READMESample.md", response)
 )
 
-
+//Function that writes markdown for README to file
 function writeToFile(fileName, data) {
     const generatedReadMe = markdownFile(data)
    

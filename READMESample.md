@@ -22,7 +22,7 @@
 
 
 ## License
-I utilized the [MIT License](https://www.mit.edu/~amini/LICENSE.md) for this project.
+[MIT License](https://www.mit.edu/~amini/LICENSE.md)
 
 ## How to Contribute 
 
