@@ -65,7 +65,7 @@ function writeToFile(fileName, data) {
 
     const generatedReadMe = markdownFile(data)
    
-    fs.writeFile(fileName, JSON.stringify(generatedReadMe), (err) =>
+    fs.writeFile(fileName, generatedReadMe, (err) =>
         err ? console.error(err) : console.log("Success")
     )
 

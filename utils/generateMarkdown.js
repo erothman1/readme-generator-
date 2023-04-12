@@ -20,13 +20,13 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case "MIT License":
-      return `[MIT](https://www.mit.edu/~amini/LICENSE.md)`
+      return `[MIT License](https://www.mit.edu/~amini/LICENSE.md)`
     case "Creative Commons Zero v1.0 Universal":
-      return `[Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/legalcode)`
+      return `[Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)`
     case "GNU General Public License v3.0":
-      return `[GNU License](https://www.gnu.org/licenses/gpl-3.0.en.html)`
+      return `[GNU General Public License v3.0 License](https://www.gnu.org/licenses/gpl-3.0.en.html)`
     case "Apache License 2.0":
-      return `[Apache License](https://www.apache.org/licenses/LICENSE-2.0)`
+      return `[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)`
     default:
       return ``
   }
@@ -35,7 +35,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  return `I utilized the ${license} for this project. ${renderLicenseLink(license)}`
+  return `I utilized the ${renderLicenseLink(license)} for this project.`
 }
 
 // TODO: Create a function to generate markdown for README
@@ -45,31 +45,31 @@ function generateMarkdown(data) {
   ## Description 
   ${data.description}
 
-  ##Table of Contents
+  ## Table of Contents
   -[Installation](#installation)
   -[Usage](#usage)
   -[Credits](#credits)
   -[License](#license)
 
-  ##Installation
+  ## Installation
   ${data.installation}
 
-  ##Usage 
+  ## Usage 
   ${data.usage}
 
-  ##Credits
+  ## Credits
   ${data.credits}
 
-  ##License
+  ## License
   ${renderLicenseSection(data.license)}
 
-  ##How to Contribute 
+  ## How to Contribute 
   ${data.contribution}
 
-  ##Tests
+  ## Tests
   ${data.tests}
 
-  ##Questions
+  ## Questions
   [Here is the link to my GitHub Profile](https://github.com/${data.username})
   If you have any questions, email me at ${data.email}
 
